@@ -1,0 +1,15 @@
+.signUpModal{
+  text-align: center;
+}
+.signUpModal img{
+  width: 100%;
+  max-width: 150px;
+}
+
+.signUpModal h1{
+  margin-bottom: 30px;
+}
+
+.signUpModal h2{
+  opacity: .6;
+}

@@ -1,0 +1,7 @@
+FROM alpine:3.20
+RUN apk add nodejs npm
+WORKDIR /app
+COPY durak-webapp/ /app/
+RUN npm install
+EXPOSE 3000
+CMD ["npm", "start"]
