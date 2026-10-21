@@ -1,0 +1,9 @@
+services:
+  nginx1:
+    image: nginx:latest
+    ports:
+      - 80:80 
+  nginx2:
+    build: ../01-nginx-hello
+    ports:
+      - 81:80
