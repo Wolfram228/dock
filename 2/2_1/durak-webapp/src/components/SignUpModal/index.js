@@ -3,7 +3,7 @@ import * as React from 'react';
 import { Button, Input, Modal } from 'antd';
 
 import icon from './icon.png';
-import styles from './style.module.css';
+import styles from './style.css';
 
 const host = "http://localhost:8080"
 
