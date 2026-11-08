@@ -1,0 +1,133 @@
+.App {
+  width: 480px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between
+}
+
+h1.title {
+  font-size: 80px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.scores-container {
+  margin-top: 18px;
+  display: flex;
+}
+
+.score-container, .best-container {
+  position: relative;
+  display: block;
+  background: #bbada0;
+  padding: 15px 25px;
+  font-size: 25px;
+  height: 25px;
+  line-height: 47px;
+  font-weight: bold;
+  border-radius: 3px;
+  color: white;
+  margin-top: 8px;
+  text-align: center;
+}
+
+.score-container:after {
+  content: "Score";
+}
+
+.best-container:after {
+  content: "Best";
+}
+
+.score-container:after, .best-container:after {
+  position: absolute;
+  width: 100%;
+  top: 10px;
+  left: 0;
+  text-transform: uppercase;
+  font-size: 13px;
+  line-height: 13px;
+  text-align: center;
+  color: #eee4da;
+}
+
+.above-game {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.game-intro {
+  margin-bottom: 0;
+  margin-right: 10px;
+  font-size: 18px
+}
+
+.restart-button {
+  display: inline-block;
+  font-weight: bold;
+  background: #8f7a66;
+  border-radius: 3px;
+  padding: 0 20px;
+  text-decoration: none;
+  color: #f9f6f2;
+  height: 40px;
+  line-height: 42px;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.border {
+  background: #ad9d8f;
+  width: max-content;
+  height: max-content;
+  margin: auto;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 10px;
+  position: relative;
+}
+
+.gameOverOverlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  border-radius: 5px;
+  background: rgba(238, 228, 218, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-over {
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 900;
+}
+
+.tryAgainButton {
+  flex: 1;
+  padding: 10px;
+  background: #846F5B;
+  color: #F8F5F0;
+  width: 80px;
+  border-radius: 7px;
+  font-weight: 900;
+  cursor: pointer;
+  margin: auto;
+  margin-top: 20px
+}
+
+.game-explanation {
+  margin-top: 20px;
+}
+
